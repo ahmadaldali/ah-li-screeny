@@ -28,6 +28,7 @@ Just install it and start recording your screen immediately without any hassle.
 
 1. you can download the ZIP file from GitHub and extract it.
 [https://github.com/ahmadaldali/ah-li-screeny](https://github.com/ahmadaldali/ah-li-screeny)
+2. Extract the zip file.
 ---
 
 ### Step 2: Load the extension in Chrome
