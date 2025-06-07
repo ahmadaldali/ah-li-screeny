@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "My simpler Screen Recorder - ah-li-screeny",
+  "version": "1.0",
+  "permissions": [
+    "offscreen",
+    "downloads"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "messages.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
+}

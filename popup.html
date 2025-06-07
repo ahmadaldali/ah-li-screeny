@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Screen Recorder</title>
+    <link rel="stylesheet" href="css/popup.css" />
+  </head>
+  <body>
+    <div id="container">
+      <button id="startBtn" title="Start Recording">
+        <svg
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/1600/svg"
+        >
+          <path d="M5 3v18l15-9L5 3z" fill="white" />
+        </svg>
+      </button>
+
+      <button id="stopBtn" title="Stop Recording" style="display: none">
+        <svg
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/1600/svg"
+        >
+          <path d="M6 6h12v12H6z" fill="white" />
+        </svg>
+      </button>
+    </div>
+    <script type="module" src="js/popup.js"></script>
+  </body>
+</html>
