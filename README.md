@@ -1,5 +1,3 @@
-# ah-li-screeny
-
 # My simpler Screen Recorder - ah-li-screeny
 
 A lightweight Chrome extension that lets you record your screen easily — no paid tools, no account creation, just install and start recording!
